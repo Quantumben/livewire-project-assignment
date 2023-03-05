@@ -347,8 +347,8 @@ class ComposerStaticInit4d1ec0cbbf5ef1711b9b1a376b8aa732
         ),
         'Psr\\Http\\Message\\' => 
         array (
-            0 => __DIR__ . '/..' . '/psr/http-message/src',
-            1 => __DIR__ . '/..' . '/psr/http-factory/src',
+            0 => __DIR__ . '/..' . '/psr/http-factory/src',
+            1 => __DIR__ . '/..' . '/psr/http-message/src',
         ),
         'Psr\\Http\\Client\\' => 
         array (
@@ -542,7 +542,6 @@ class ComposerStaticInit4d1ec0cbbf5ef1711b9b1a376b8aa732
     public static $classMap = array (
         'App\\Console\\Kernel' => __DIR__ . '/../..' . '/app/Console/Kernel.php',
         'App\\Exceptions\\Handler' => __DIR__ . '/../..' . '/app/Exceptions/Handler.php',
-        'App\\Http\\Controllers\\Api\\v1\\TodoListController' => __DIR__ . '/../..' . '/app/Http/Controllers/Api/v1/TodoListController.php',
         'App\\Http\\Controllers\\Controller' => __DIR__ . '/../..' . '/app/Http/Controllers/Controller.php',
         'App\\Http\\Kernel' => __DIR__ . '/../..' . '/app/Http/Kernel.php',
         'App\\Http\\Livewire\\Index' => __DIR__ . '/../..' . '/app/Http/Livewire/Index.php',
